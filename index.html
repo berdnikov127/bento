@@ -23,7 +23,7 @@
 		</button>
         <div class="container">
             <div class="searchBar">
-                <input type="text" id="searchInput" placeholder="Поиск..." onkeydown="if(event.key==='Enter') window.location.href='https://www.google.com/search?q='+this.value">
+                <input type="text" id="searchInput" placeholder="Поиск или адрес сайта..." onkeydown="if(event.key==='Enter'){ var v=this.value; window.location.href=(v.includes('.')||v.startsWith('http'))?'https://'+v.replace('https://',''):'https://www.google.com/search?q='+v }">
             </div>
 			<!-- Clock and Greetings  -->
 
