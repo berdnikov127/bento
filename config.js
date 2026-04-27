@@ -136,97 +136,96 @@ const CONFIG = {
 
 	// First Links Container
 	firstlistsContainer: [
-		{
-			icon: 'music',
-			id: '1',
-			links: [
-				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
-		},
+	    {
+	        icon: 'router',
+	        id: '1',
+	        links: [
+	            {
+	                name: 'Keenetic',
+	                link: 'http://192.168.1.1',
+	            },
+	            {
+	                name: 'Proxmox',
+	                link: 'https://172.16.0.2:8006/#v1:0:18:4:::::::',
+	            },
+	            {
+	                name: 'Habr',
+	                link: 'https://habr.com/ru/feed/',
+	            },
+	            {
+	                name: 'GitHub',
+	                link: 'https://github.com/',
+	            },
+	        ],
+	    },
+	    {
+	        icon: 'shopping-cart',
+	        id: '2',
+	        links: [
+	            {
+	                name: 'Avito',
+	                link: 'https://www.avito.ru/',
+	            },
+	            {
+	                name: 'Ozon',
+	                link: 'https://www.ozon.ru/',
+	            },
+	            {
+	                name: 'Wildberries',
+	                link: 'https://www.wildberries.ru/',
+	            },
+	            {
+	                name: 'Rutracker',
+	                link: 'https://rutracker.org/',
+	            },
+	        ],
+	    },
 	],
-
-	// Second Links Container
+	
 	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
-				},
-			],
-		},
+	    {
+	        icon: 'image',
+	        id: '1',
+	        links: [
+	            {
+	                name: 'Pinterest',
+	                link: 'https://www.pinterest.com/',
+	            },
+	            {
+	                name: 'Boosty',
+	                link: 'https://boosty.to/',
+	            },
+	            {
+	                name: 'YouTube',
+	                link: 'https://www.youtube.com/',
+	            },
+	            {
+	                name: 'Reddit',
+	                link: 'https://www.reddit.com/',
+	            },
+	        ],
+	    },
+	    {
+	        icon: 'newspaper',
+	        id: '2',
+	        links: [
+	            {
+	                name: 'Vc.ru',
+	                link: 'https://vc.ru/',
+	            },
+	            {
+	                name: 'DTF',
+	                link: 'https://dtf.ru/',
+	            },
+	            {
+	                name: 'Pikabu',
+	                link: 'https://pikabu.ru/',
+	            },
+	            {
+	                name: 'Kinopoisk',
+	                link: 'https://www.kinopoisk.ru/',
+	            },
+	        ],
+	    },
 	],
 };
