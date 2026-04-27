@@ -367,5 +367,7 @@ body {
     stroke: white !important;
   }
   * {
+    -moz-user-select: none;
     user-select: none;
+    -webkit-user-drag: none;
   }
