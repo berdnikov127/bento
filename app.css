@@ -366,13 +366,15 @@ body {
     color: white !important;
     stroke: white !important;
   }
-  img, svg {
-    pointer-events: none;
-    -webkit-user-drag: none;
-    user-drag: none;
-  }
   * {
     -moz-user-select: none;
     user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: auto;
+  }
+  
+  img, svg {
+    pointer-events: none;
     -webkit-user-drag: none;
   }
