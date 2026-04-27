@@ -360,4 +360,9 @@ body {
     padding-left: 100px;
     padding-right: 100px;
   }
-}
+  }
+  /* YouTube icon white */
+  #firstButtonsContainer > div:nth-child(1) svg {
+    color: white !important;
+    stroke: white !important;
+  }
