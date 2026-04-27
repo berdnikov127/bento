@@ -80,6 +80,20 @@
 		<script>
 			lucide.createIcons();
 		</script>
+		<script>
+		  const observer = new MutationObserver(() => {
+		    const video = document.getElementById('bgvideo');
+		    const src = document.getElementById('bgvideosrc');
+		    const isDark = document.body.classList.contains('darktheme');
+		    const newSrc = isDark ? 'assets/SpaceGirl_1080_fixed.mp4' : 'assets/Sequence_03.mp4';
+		    if (src.src !== newSrc) {
+		      src.setAttribute('src', newSrc);
+		      video.load();
+		      video.play();
+		    }
+		  });
+		  observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+		</script>
 	</body>
 
 	<!-- Developed and designed by Miguel Ávila: -->
