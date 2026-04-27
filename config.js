@@ -51,52 +51,52 @@ const CONFIG = {
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
 	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
-
+	
 	firstButtonsContainer: [
-		{
-			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
-		},
-		{
-			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/mail/u/0/#inbox',
-		},
-		{
-			id: '3',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
-		},
-		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
-		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
-			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
+	    {
+	        id: '1',
+	        name: 'YouTube',
+	        icon: 'youtube',
+	        link: 'https://www.youtube.com/',
+	    },
+	    {
+	        id: '2',
+	        name: 'Gmail',
+	        icon: 'mail',
+	        link: 'https://mail.google.com/mail/u/0/#inbox',
+	    },
+	    {
+	        id: '3',
+	        name: 'GitHub',
+	        icon: 'github',
+	        link: 'https://github.com/',
+	    },
+	    {
+	        id: '4',
+	        name: 'VK',
+	        icon: 'users',
+	        link: 'https://vk.com/',
+	    },
+	    {
+	        id: '5',
+	        name: 'DeepSeek',
+	        icon: 'brain',
+	        link: 'https://chat.deepseek.com/',
+	    },
+	    {
+	        id: '6',
+	        name: 'Proxmox',
+	        icon: 'server',
+	        link: 'https://172.16.0.2:8006/#v1:0:18:4:::::::',
+	    },
 	],
 
 	secondButtonsContainer: [
 		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+		    id: '1',
+		    name: 'Keenetic',
+		    icon: 'router',
+		    link: 'http://192.168.1.1',
 		},
 		{
 			id: '2',
