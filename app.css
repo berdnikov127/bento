@@ -394,3 +394,23 @@ body {
     background: transparent !important;
     animation: none !important;
   }
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--sbg);
+    color: var(--fg);
+    font-size: 16px;
+    outline: none;
+  }
+  
+  #searchInput::placeholder {
+    color: #888;
+  }
