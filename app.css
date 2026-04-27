@@ -366,3 +366,6 @@ body {
     color: white !important;
     stroke: white !important;
   }
+  * {
+    user-select: none;
+  }
