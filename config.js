@@ -73,9 +73,9 @@ const CONFIG = {
 	    },
 	    {
 	        id: '4',
-	        name: 'VK',
-	        icon: 'users',
-	        link: 'https://vk.com/',
+	        name: 'Интернетометр',
+	        icon: 'gauge',
+	        link: 'https://yandex.ru/internet/,
 	    },
 	    {
 	        id: '5',
