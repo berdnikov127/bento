@@ -75,7 +75,7 @@ const CONFIG = {
 	        id: '4',
 	        name: 'speedtest',
 	        icon: 'gauge',
-	        link: 'https://yandex.ru/internet/,'
+	        link: 'https://yandex.ru/internet/',
 	    },
 	    {
 	        id: '5',
