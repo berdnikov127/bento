@@ -73,7 +73,7 @@ const CONFIG = {
 	    },
 	    {
 	        id: '4',
-	        name: 'Интернетометр',
+	        name: 'speedtest',
 	        icon: 'gauge',
 	        link: 'https://yandex.ru/internet/,
 	    },
